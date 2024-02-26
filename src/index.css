@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+  .animation-delay-6000 {
+    animation-delay: 6s;
+  }
+
+  .radio span::after {
+    content: "" !important;
+    height: 6px !important;
+    width: 6px !important;
+    background-color: red;
+    display: block !important;
+    position: absolute !important;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%) scale(0) !important;
+    border-radius: 50% !important;
+    transition: 100ms ease-in-out 0s;
+  }
+
+  .radio input[type="radio"]:checked ~ span::after {
+    transform: translate(-50%, -50%) scale(1) !important;
+  }
+
+  .dark span::after {
+    background-color: pink;
+  }
+}

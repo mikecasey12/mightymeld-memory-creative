@@ -8,7 +8,7 @@ Welcome to the hackathon! Here’s how to get started.
 
 1. Clone this repository to your local machine.
 
-2. Change into the directory of the cloned repository: `cd mightymeld-memory`.
+2. Change into the directory of the cloned repository: `cd mightymeld-memory-creative`.
 
 3. Make sure you have an account at [mightymeld.app](https://mightymeld.app).
 
